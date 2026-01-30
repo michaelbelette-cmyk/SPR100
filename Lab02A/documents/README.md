@@ -42,6 +42,6 @@
 
 ## Analysis and Conclusions
 ### Understanding Questions
-[cite_start]**Virtual Memory Concept:** [Explain in your own words what virtual memory is and why it's important] [cite: 439]
-[cite_start]**VM Resource Allocation:** [Explain how VM resource allocation affects performance] [cite: 440]
-[cite_start]**Performance Monitoring Value:** [Explain why monitoring is important in system administration] [cite: 441]
+[cite_start]**Virtual Memory Concept:** [A memory management technique where the Operating System uses a portion of the hard drive space, known as a Page File, to act as a temporary extension of physical RAM. This is important because it allows the system to run larger applications or more programs simultaneously than the physical RAM alone could support, preventing "out of memory" errors by swapping data between the disk and RAM.] [cite: 439]
+[cite_start]**VM Resource Allocation:** [The process of dedicating a specific portion of the host's physical hardware (like CPU cores and RAM) to a Virtual Machine. Increasing a VM's RAM from the default 2GB to 4GB provides the guest OS with more "breathing room" to process instructions and manage data, which reduces the need for slow disk swapping and results in a much smoother, faster user experience] [cite: 440]
+[cite_start]**Performance Monitoring Value:** [Allows admins to establish a "baseline" of normal activity and identify anomalies, such as CPU or memory spikes. These spikes can reveal hardware bottlenecks (where the hardware is too weak for the software), poorly optimized applications, or the presence of malware that is consuming system resources in the background.] [cite: 441]
